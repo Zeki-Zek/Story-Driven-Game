@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator animator;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -27,11 +28,25 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isWalking", false);
             animator.SetFloat("LastInputX", moveInput.x);
             animator.SetFloat("LastInputY", moveInput.y);
-
         }
-        moveInput = context.ReadValue<Vector2>();
+
+        Vector2 rawInput = context.ReadValue<Vector2>();
+
+        // Snap input to 4 directions
+        if (Mathf.Abs(rawInput.x) > Mathf.Abs(rawInput.y))
+        {
+            moveInput = new Vector2(Mathf.Sign(rawInput.x), 0);
+        }
+        else if (Mathf.Abs(rawInput.y) > 0)
+        {
+            moveInput = new Vector2(0, Mathf.Sign(rawInput.y));
+        }
+        else
+        {
+            moveInput = Vector2.zero;
+        }
+
         animator.SetFloat("InputX", moveInput.x);
         animator.SetFloat("InputY", moveInput.y);
-
     }
 }
