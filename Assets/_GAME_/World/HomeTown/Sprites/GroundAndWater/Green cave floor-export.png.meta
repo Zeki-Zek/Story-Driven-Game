@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Green cave floor-export_0: -3689318282544544593
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

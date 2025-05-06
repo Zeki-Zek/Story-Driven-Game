@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Water current west-export_0: -1084144774711052721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Waterfall crest-export_0: -4046757175276982622
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
