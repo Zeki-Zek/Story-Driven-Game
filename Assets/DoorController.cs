@@ -6,7 +6,8 @@ public class Door : MonoBehaviour
     private Animator animator;
     public string sceneToLoad;
 
-    public float delayBeforeSceneLoad = 1.0f; // Match to your animation length
+    public float delayBeforeSceneLoad = 1.0f; // Match to your open animation length
+    public float closeDoorDelay = 0.1f;       // Match to your close animation length
 
     private bool isPlayerEntering = false;
 
@@ -27,34 +28,33 @@ public class Door : MonoBehaviour
 
     System.Collections.IEnumerator EnterDoorAndLoadScene(GameObject player)
     {
-        // Optionally stop the player’s movement (if you have a PlayerController script)
-       /* var playerController = player.GetComponent<PlayerController>();
+        // Stop player movement
+        /*var playerController = player.GetComponent<PlayerController>();
         if (playerController != null)
         {
             playerController.enabled = false;
         }*/
 
-        // Hide the player’s sprite (make invisible)
+        // Optional: Wait a short moment if you want the player to "step into" the door
+        yield return new WaitForSeconds(0.2f);
+
+        // Hide the player's sprite
         var playerRenderer = player.GetComponent<SpriteRenderer>();
         if (playerRenderer != null)
         {
-            yield return new WaitForSeconds(0.2f); // small delay if you want them to “step into” the door
             playerRenderer.enabled = false;
         }
 
-        // Wait for the rest of the animation
+        // Wait for the open animation to finish
         yield return new WaitForSeconds(delayBeforeSceneLoad);
+
+        // Play close door animation
+        animator.SetTrigger("Close");
+
+        // Wait for the close animation to finish
+        yield return new WaitForSeconds(closeDoorDelay);
 
         // Load the next scene
         SceneManager.LoadScene(sceneToLoad);
-    }
-
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            animator.SetTrigger("Close");
-            isPlayerEntering = false;
-        }
     }
 }
