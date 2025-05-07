@@ -166,10 +166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10292315d18e5434397c4fc572164aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 3476180}
-  doorOpenTime: 1
-  player: {fileID: 1143901174}
-  playerDisappearDelay: 0.5
+  sceneToLoad: House1
+  delayBeforeSceneLoad: 0.3
+  closeDoorDelay: 1
 --- !u!95 &3476180
 Animator:
   serializedVersion: 7
