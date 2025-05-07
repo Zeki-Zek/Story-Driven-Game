@@ -259,7 +259,7 @@ public class TilePlayerController : MonoBehaviour
 
 */
 
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.InputSystem;
 using System.Collections;
@@ -374,5 +374,107 @@ public class TilePlayerController : MonoBehaviour
         transform.position = endPos;
         currentGridPosition = targetGridPos;
         isMoving = false;
+    }
+}
+*/
+
+using UnityEngine;
+using UnityEngine.Tilemaps;
+using System.Collections;
+
+public class TilePlayerController : MonoBehaviour
+{
+    [SerializeField] private Tilemap groundTilemap;
+    [SerializeField] private Tilemap collisionTilemap;
+    [SerializeField] private float moveSpeed = 4f; // Tiles per second
+    [SerializeField] private float tileSize = 1f;
+
+    private TilePlayerMovement controls;
+    private Animator animator;
+
+    private Vector2 inputDirection = Vector2.down;
+    private Vector2 lastInputDirection = Vector2.down;
+
+    private bool isMoving = false;
+    private Vector3Int currentGridPosition;
+    private Coroutine moveCoroutine;
+
+    private void Awake()
+    {
+        controls = new TilePlayerMovement();
+        animator = GetComponent<Animator>();
+    }
+
+    private void OnEnable() => controls.Enable();
+    private void OnDisable() => controls.Disable();
+
+    private void Start()
+    {
+        currentGridPosition = groundTilemap.WorldToCell(transform.position);
+        transform.position = groundTilemap.GetCellCenterWorld(currentGridPosition);
+    }
+
+    private void Update()
+    {
+        if (isMoving) return;
+
+        Vector2 rawInput = controls.Main.Movement.ReadValue<Vector2>();
+        Vector2 newInputDir = Vector2.zero;
+
+        if (Mathf.Abs(rawInput.x) > Mathf.Abs(rawInput.y))
+            newInputDir = new Vector2(Mathf.Sign(rawInput.x), 0);
+        else if (Mathf.Abs(rawInput.y) > 0)
+            newInputDir = new Vector2(0, Mathf.Sign(rawInput.y));
+
+        if (newInputDir != Vector2.zero)
+        {
+            inputDirection = newInputDir;
+            animator.SetFloat("InputX", inputDirection.x);
+            animator.SetFloat("InputY", inputDirection.y);
+            animator.SetBool("isWalking", true);
+
+            Vector3Int targetGridPos = currentGridPosition + Vector3Int.RoundToInt((Vector3)inputDirection);
+            if (CanMove(targetGridPos))
+            {
+                moveCoroutine = StartCoroutine(MoveToTile(targetGridPos));
+            }
+            else
+            {
+                animator.SetBool("isWalking", false);
+            }
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
+    }
+
+    private bool CanMove(Vector3Int targetGridPos)
+    {
+        return groundTilemap.HasTile(targetGridPos) && !collisionTilemap.HasTile(targetGridPos);
+    }
+
+    private IEnumerator MoveToTile(Vector3Int targetGridPos)
+    {
+        isMoving = true;
+        Vector3 startPos = transform.position;
+        Vector3 endPos = groundTilemap.GetCellCenterWorld(targetGridPos);
+        float moveTime = tileSize / moveSpeed;
+        float elapsed = 0f;
+
+        while (elapsed < moveTime)
+        {
+            transform.position = Vector3.Lerp(startPos, endPos, elapsed / moveTime);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = endPos;
+        currentGridPosition = targetGridPos;
+        isMoving = false;
+
+        // Set idle facing
+        animator.SetFloat("LastInputX", inputDirection.x);
+        animator.SetFloat("LastInputY", inputDirection.y);
     }
 }
