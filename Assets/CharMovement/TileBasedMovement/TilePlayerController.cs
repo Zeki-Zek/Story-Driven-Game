@@ -414,7 +414,7 @@ public class TilePlayerController : MonoBehaviour
         transform.position = groundTilemap.GetCellCenterWorld(currentGridPosition);
     }
 
-    private void Update()
+    /*private void Update()
     {
         if (isMoving) return;
 
@@ -447,7 +447,42 @@ public class TilePlayerController : MonoBehaviour
         {
             animator.SetBool("isWalking", false);
         }
+    }*/
+
+    private void Update()
+    {
+        if (isMoving) return;
+
+        Vector2 rawInput = controls.Main.Movement.ReadValue<Vector2>();
+        Vector2 newInputDir = Vector2.zero;
+
+        if (Mathf.Abs(rawInput.x) > Mathf.Abs(rawInput.y))
+            newInputDir = new Vector2(Mathf.Sign(rawInput.x), 0);
+        else if (Mathf.Abs(rawInput.y) > 0)
+            newInputDir = new Vector2(0, Mathf.Sign(rawInput.y));
+
+        if (newInputDir != Vector2.zero)
+        {
+            inputDirection = newInputDir;
+
+            // Always set animation values on input
+            animator.SetFloat("InputX", inputDirection.x);
+            animator.SetFloat("InputY", inputDirection.y);
+            animator.SetBool("isWalking", true);
+
+            Vector3Int targetGridPos = currentGridPosition + Vector3Int.RoundToInt((Vector3)inputDirection);
+            if (CanMove(targetGridPos))
+            {
+                moveCoroutine = StartCoroutine(MoveToTile(targetGridPos));
+            }
+            // ELSE: we don't stop the animation here, so player keeps animating even if blocked
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
     }
+
 
     private bool CanMove(Vector3Int targetGridPos)
     {

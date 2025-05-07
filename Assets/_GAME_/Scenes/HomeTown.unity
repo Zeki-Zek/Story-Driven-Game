@@ -983,7 +983,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.7615136, y: 0.94488573}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &1143901182
 MonoBehaviour:
@@ -999,7 +999,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundTilemap: {fileID: 1459480786}
   collisionTilemap: {fileID: 1700896390}
-  moveTime: 0.2
+  moveSpeed: 4
+  tileSize: 1
 --- !u!1 &1459480783
 GameObject:
   m_ObjectHideFlags: 0
