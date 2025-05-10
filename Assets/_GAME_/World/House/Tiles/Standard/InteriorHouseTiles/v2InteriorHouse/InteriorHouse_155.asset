@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: InteriorHouse_155
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -5529352494556997198, guid: 1341cb78befe745489529a65d0593500, type: 3}
+  m_Sprite: {fileID: -5529352494556997198, guid: fedba0825c348f846905c9c36fa06cda, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

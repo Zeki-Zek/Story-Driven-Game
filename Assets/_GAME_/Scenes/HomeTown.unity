@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10292315d18e5434397c4fc572164aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: House1
+  sceneToLoad: MainCharacterHouse
   delayBeforeSceneLoad: 0.3
   closeDoorDelay: 1
 --- !u!95 &3476180
@@ -278,7 +278,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -55441399
+  m_SortingLayerID: 9720269
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -7318541220463257505, guid: 8fdf54de018cfcc43ac4a5f2f80b1b4c, type: 3}
@@ -398,7 +398,7 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -55441399
+  m_SortingLayerID: 9720269
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -832,7 +832,7 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1448599995
+  m_SortingLayerID: -37154693
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -3146,7 +3146,7 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1801255677
+  m_SortingLayerID: -2069337429
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -3401,7 +3401,7 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1218672529
+  m_SortingLayerID: 582529069
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -3684,9 +3684,25 @@ PrefabInstance:
       propertyPath: collisionTilemap
       value: 
       objectReference: {fileID: 1700896390}
+    - target: {fileID: 3124931106069623684, guid: 96a8e3e128509fd4a8065ddaefc86417, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124931106069623684, guid: 96a8e3e128509fd4a8065ddaefc86417, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1508047775
+      objectReference: {fileID: 0}
     - target: {fileID: 3348023777571096990, guid: 96a8e3e128509fd4a8065ddaefc86417, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7491574923404564195, guid: 96a8e3e128509fd4a8065ddaefc86417, type: 3}
+      propertyPath: m_Size.y
+      value: 0.62860346
+      objectReference: {fileID: 0}
+    - target: {fileID: 7491574923404564195, guid: 96a8e3e128509fd4a8065ddaefc86417, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.12441325
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

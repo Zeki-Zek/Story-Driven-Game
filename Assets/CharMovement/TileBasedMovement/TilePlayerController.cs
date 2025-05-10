@@ -386,6 +386,7 @@ public class TilePlayerController : MonoBehaviour
 {
     [SerializeField] private Tilemap groundTilemap;
     [SerializeField] private Tilemap collisionTilemap;
+    [SerializeField] private Tilemap collisionFurnitureTilemap;
     [SerializeField] private float moveSpeed = 4f; // Tiles per second
     [SerializeField] private float tileSize = 1f;
 
@@ -486,7 +487,7 @@ public class TilePlayerController : MonoBehaviour
 
     private bool CanMove(Vector3Int targetGridPos)
     {
-        return groundTilemap.HasTile(targetGridPos) && !collisionTilemap.HasTile(targetGridPos);
+        return groundTilemap.HasTile(targetGridPos) && !collisionTilemap.HasTile(targetGridPos) && !collisionFurnitureTilemap.HasTile(targetGridPos);
     }
 
     private IEnumerator MoveToTile(Vector3Int targetGridPos)
