@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections.Generic;
+
 public class Door : MonoBehaviour
 {
     private Animator animator;
     public string sceneToLoad;
-    public Vector3 teleportPositionNewScene;
+    
     public float delayBeforeSceneLoad = 1.0f; // Match to your open animation length
     public float closeDoorDelay = 0.1f;       // Match to your close animation length
 
@@ -20,7 +20,7 @@ public class Door : MonoBehaviour
     {
         if (other.CompareTag("Player") && !isPlayerEntering)
         {
-            SceneTransitionManager.Instance.SetTeleportPosition(teleportPositionNewScene);
+           
             isPlayerEntering = true;
             animator.SetTrigger("Open");
             StartCoroutine(EnterDoorAndLoadScene(other.gameObject));
