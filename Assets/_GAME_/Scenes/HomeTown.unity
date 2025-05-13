@@ -167,7 +167,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: MCCharacterHouse
-  teleportPositionNewScene: {x: 2.5, y: -3.5, z: 0}
   delayBeforeSceneLoad: 0.3
   closeDoorDelay: 1
 --- !u!95 &3476180

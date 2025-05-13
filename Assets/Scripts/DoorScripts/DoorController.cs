@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class Door : MonoBehaviour
 {
     private Animator animator;
+    
     public string sceneToLoad;
     
     public float delayBeforeSceneLoad = 1.0f; // Match to your open animation length
@@ -20,7 +21,7 @@ public class Door : MonoBehaviour
     {
         if (other.CompareTag("Player") && !isPlayerEntering)
         {
-           
+            
             isPlayerEntering = true;
             animator.SetTrigger("Open");
             StartCoroutine(EnterDoorAndLoadScene(other.gameObject));
@@ -56,6 +57,10 @@ public class Door : MonoBehaviour
         yield return new WaitForSeconds(closeDoorDelay);
 
         // Load the next scene
+
+        yield return new WaitForSeconds(closeDoorDelay);
+        
         SceneManager.LoadScene(sceneToLoad);
     }
+  
 }
