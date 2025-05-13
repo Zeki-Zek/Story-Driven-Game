@@ -251,62 +251,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2529364689511422485, guid: 96a8e3e128509fd4a8065ddaefc86417, type: 3}
       insertIndex: -1
       addedObject: {fileID: 519420032}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3348023777571096990, guid: 96a8e3e128509fd4a8065ddaefc86417, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 667419627}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96a8e3e128509fd4a8065ddaefc86417, type: 3}
 --- !u!4 &94893713 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2529364689511422485, guid: 96a8e3e128509fd4a8065ddaefc86417, type: 3}
   m_PrefabInstance: {fileID: 94893712}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &127445911
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 127445913}
-  - component: {fileID: 127445912}
-  m_Layer: 0
-  m_Name: SceneTransitionManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &127445912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127445911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 895cc50a86b9f7e428ff938dd2cef32f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerPosition: {x: 0, y: 0, z: 0}
-  shouldTP: 0
---- !u!4 &127445913
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127445911}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.612893, y: -2.4253426, z: 0.039529905}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &315769868
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +270,6 @@ GameObject:
   - component: {fileID: 315769873}
   - component: {fileID: 315769872}
   - component: {fileID: 315769871}
-  - component: {fileID: 315769870}
   - component: {fileID: 315769874}
   m_Layer: 0
   m_Name: CarpetTransition
@@ -343,20 +293,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 44834496}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &315769870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315769868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8afd74e817e4259408f433c609e30a5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneToLoad: HomeTown
-  teleportPositionNewScene: {x: 5.5, y: 0.5, z: 0}
 --- !u!19719996 &315769871
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -3356,23 +3292,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &667419626 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3348023777571096990, guid: 96a8e3e128509fd4a8065ddaefc86417, type: 3}
-  m_PrefabInstance: {fileID: 94893712}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &667419627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 667419626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19363327fbd6b249aba0e2981cc19ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &797005889
 GameObject:
   m_ObjectHideFlags: 0
@@ -18877,4 +18796,3 @@ SceneRoots:
   - {fileID: 1586371882}
   - {fileID: 861984891}
   - {fileID: 2031825310}
-  - {fileID: 127445913}
