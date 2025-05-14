@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using System.Collections;
 public class Door : MonoBehaviour
 {
     private Animator animator;
+    public Animator transition;
     
     public string sceneToLoad;
     
@@ -15,6 +16,7 @@ public class Door : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -28,7 +30,7 @@ public class Door : MonoBehaviour
         }
     }
 
-    System.Collections.IEnumerator EnterDoorAndLoadScene(GameObject player)
+    IEnumerator EnterDoorAndLoadScene(GameObject player)
     {
         // Stop player movement
         /*var playerController = player.GetComponent<PlayerController>();
@@ -54,13 +56,16 @@ public class Door : MonoBehaviour
         animator.SetTrigger("Close");
 
         // Wait for the close animation to finish
-        yield return new WaitForSeconds(closeDoorDelay);
 
         // Load the next scene
 
+        transition.SetTrigger("End");
         yield return new WaitForSeconds(closeDoorDelay);
-        
+
         SceneManager.LoadScene(sceneToLoad);
+
     }
-  
+
+   
+
 }
