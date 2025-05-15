@@ -546,6 +546,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: HomeTown
+  transAnimation: {fileID: 1983286819}
+  delayBeforeSceneLoad: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
