@@ -381,6 +381,7 @@ public class TilePlayerController : MonoBehaviour
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class TilePlayerController : MonoBehaviour
 {
@@ -406,9 +407,34 @@ public class TilePlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void OnEnable() => controls.Enable();
+    /*private void OnEnable() => controls.Enable();
     private void OnDisable() => controls.Disable();
+*/
 
+    private void OnEnable()
+    {
+        controls.Enable();
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        controls.Disable();
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Attempt to find the tilemaps using exact names
+        groundTilemap = GameObject.Find("World/Grid/Ground&FloorTileMap")?.GetComponent<Tilemap>();
+        collisionTilemap = GameObject.Find("World/Grid/Wall&CollisionTileMap")?.GetComponent<Tilemap>();
+        collisionFurnitureTilemap = GameObject.Find("World/Grid/Furnitures&Collisions")?.GetComponent<Tilemap>();
+
+        // Safety check
+        if (groundTilemap == null) Debug.LogWarning("Ground&FloorTileMap not found in scene!");
+        if (collisionTilemap == null) Debug.LogWarning(" Wall&CollisionTileMap not found in scene!");
+        if (collisionFurnitureTilemap == null) Debug.LogWarning("Furnitures&Collisions not found in scene!");
+    }
     private void Start()
     {
         currentGridPosition = groundTilemap.WorldToCell(transform.position);
@@ -512,5 +538,112 @@ public class TilePlayerController : MonoBehaviour
         // Set idle facing
         animator.SetFloat("LastInputX", inputDirection.x);
         animator.SetFloat("LastInputY", inputDirection.y);
+
+
     }
+
 }
+
+/*
+using System.Collections;
+using UnityEngine;
+using UnityEngine.Tilemaps;
+using UnityEngine.SceneManagement;
+
+public class TilePlayerController : MonoBehaviour
+{
+    public float moveSpeed = 2f;
+    public float moveDelay = 0.1f;
+
+    private Animator animator;
+    private Rigidbody2D rb;
+
+    private Tilemap groundTilemap;
+    private Tilemap collisionTilemap;
+    private Tilemap collisionFurnitureTilemap;
+
+    private bool isMoving = false;
+    private Vector2 inputDirection;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        groundTilemap = GameObject.Find("World/Grid/Ground&FloorTileMap")?.GetComponent<Tilemap>();
+        collisionTilemap = GameObject.Find("World/Grid/Wall&CollisionTileMap")?.GetComponent<Tilemap>();
+        collisionFurnitureTilemap = GameObject.Find("World/Grid/Furnitures&Collisions")?.GetComponent<Tilemap>();
+
+        if (animator == null)
+            animator = GetComponent<Animator>();
+
+        // Optional: Reset animator state after scene load
+        animator.Rebind();
+        animator.Update(0f);
+    }
+
+    private void Update()
+    {
+        if (isMoving) return;
+
+        inputDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+        // Prioritize horizontal movement over vertical
+        if (Mathf.Abs(inputDirection.x) > 0) inputDirection.y = 0;
+
+        if (inputDirection != Vector2.zero)
+        {
+            animator.SetFloat("InputX", inputDirection.x);
+            animator.SetFloat("InputY", inputDirection.y);
+            animator.SetFloat("LastInputX", inputDirection.x);
+            animator.SetFloat("LastInputY", inputDirection.y);
+
+            Vector3 targetPosition = transform.position + new Vector3(inputDirection.x, inputDirection.y, 0);
+            if (IsTileWalkable(targetPosition))
+            {
+                StartCoroutine(MoveToPosition(targetPosition));
+            }
+        }
+
+        animator.SetBool("isWalking", isMoving);
+    }
+
+    private IEnumerator MoveToPosition(Vector3 targetPosition)
+    {
+        isMoving = true;
+
+        while ((targetPosition - transform.position).sqrMagnitude > Mathf.Epsilon)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+            yield return null;
+        }
+
+        transform.position = targetPosition;
+        yield return new WaitForSeconds(moveDelay);
+        isMoving = false;
+    }
+
+    private bool IsTileWalkable(Vector3 targetPosition)
+    {
+        Vector3Int gridPosition = groundTilemap.WorldToCell(targetPosition);
+
+        TileBase groundTile = groundTilemap.GetTile(gridPosition);
+        TileBase wallTile = collisionTilemap.GetTile(gridPosition);
+        TileBase furnitureTile = collisionFurnitureTilemap.GetTile(gridPosition);
+
+        return groundTile != null && wallTile == null && furnitureTile == null;
+    }
+}*/

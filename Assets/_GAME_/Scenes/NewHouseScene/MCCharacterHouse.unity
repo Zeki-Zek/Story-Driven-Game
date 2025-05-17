@@ -264,6 +264,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1643049329141990779, guid: e6e588609759d374ab88516486d1987c, type: 3}
   m_PrefabInstance: {fileID: 1961920706620218598}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &396747329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 396747331}
+  - component: {fileID: 396747330}
+  m_Layer: 0
+  m_Name: PlayerSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &396747330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396747329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416a69ff6c5ce8a489e23bdc907541da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 396747331}
+--- !u!4 &396747331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396747329}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1762950602}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +413,7 @@ GameObject:
   - component: {fileID: 580601003}
   - component: {fileID: 580601002}
   m_Layer: 0
-  m_Name: Floor
+  m_Name: Ground&FloorTileMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16210,7 +16255,7 @@ GameObject:
   - component: {fileID: 1187701658}
   - component: {fileID: 1187701657}
   m_Layer: 0
-  m_Name: WalkBehind
+  m_Name: WalkBehindTileMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16588,6 +16633,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1762950601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1762950602}
+  m_Layer: 0
+  m_Name: PlayerSpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1762950602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762950601}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5, y: -3.65, z: 0.010482024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 396747331}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1791891205
 GameObject:
   m_ObjectHideFlags: 0
@@ -16600,7 +16677,7 @@ GameObject:
   - component: {fileID: 1791891208}
   - component: {fileID: 1791891207}
   m_Layer: 0
-  m_Name: Wall
+  m_Name: Wall&CollisionTileMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17449,7 +17526,7 @@ GameObject:
   - component: {fileID: 1885909110}
   - component: {fileID: 1885909109}
   m_Layer: 0
-  m_Name: Furnitures
+  m_Name: Furnitures&Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18443,7 +18520,7 @@ GameObject:
   - component: {fileID: 2084334512}
   - component: {fileID: 2084334511}
   m_Layer: 0
-  m_Name: WalkInFront
+  m_Name: WalkInFrontTileMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18752,3 +18829,4 @@ SceneRoots:
   - {fileID: 861984891}
   - {fileID: 2031825310}
   - {fileID: 1429549140}
+  - {fileID: 1762950602}
