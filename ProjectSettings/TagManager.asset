@@ -41,29 +41,32 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Floor/Ground
+  - name: Floor&Ground
     uniqueID: 4257812603
     locked: 0
   - name: WalkInFront
     uniqueID: 3363314415
     locked: 0
-  - name: DecorBelow
-    uniqueID: 3097158591
+  - name: Door&Carpet
+    uniqueID: 938902683
     locked: 0
   - name: WallCollision
     uniqueID: 9720269
     locked: 0
-  - name: Furnitures/Collision
+  - name: FurnituresCollision
     uniqueID: 2225629867
+    locked: 0
+  - name: DecorUnderPlayer
+    uniqueID: 3097158591
     locked: 0
   - name: Player
     uniqueID: 1508047775
     locked: 0
+  - name: DecorAbovePlayer
+    uniqueID: 3690714679
+    locked: 0
   - name: WalkBehind
     uniqueID: 582529069
-    locked: 0
-  - name: DecorAbove
-    uniqueID: 3690714679
     locked: 0
   m_RenderingLayers:
   - Default
