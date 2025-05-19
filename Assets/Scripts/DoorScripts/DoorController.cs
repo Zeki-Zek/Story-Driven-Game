@@ -27,6 +27,8 @@ public class Door : MonoBehaviour
             isPlayerEntering = true;
             animator.SetTrigger("Open");
             StartCoroutine(EnterDoorAndLoadScene(other.gameObject));
+
+
         }
     }
 
@@ -61,8 +63,11 @@ public class Door : MonoBehaviour
 
         transition.SetTrigger("End");
         yield return new WaitForSeconds(closeDoorDelay);
-
+        SceneSpawnManager.Instance.SetSpawnPoint("FromHomeTown"); // Or whatever name fits
         SceneManager.LoadScene(sceneToLoad);
+
+        
+
 
     }
 

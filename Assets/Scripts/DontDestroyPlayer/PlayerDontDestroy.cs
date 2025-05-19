@@ -61,7 +61,7 @@ public class PlayerDontDestroy : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    /*private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if (spriteRenderer != null)
         {
@@ -73,7 +73,63 @@ public class PlayerDontDestroy : MonoBehaviour
         collisionFurnitureTilemap = GameObject.Find("World/Grid/Furnitures&Collisions")?.GetComponent<Tilemap>();
 
         Debug.Log("Tilemaps reassigned for scene: " + scene.name);
+    }*/
+
+    /*private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.enabled = true;
+        }
+
+        // Reassign Tilemaps
+        groundTilemap = GameObject.Find("World/Grid/Ground&FloorTileMap")?.GetComponent<Tilemap>();
+        collisionTilemap = GameObject.Find("World/Grid/Wall&CollisionTileMap")?.GetComponent<Tilemap>();
+        collisionFurnitureTilemap = GameObject.Find("World/Grid/Furnitures&Collisions")?.GetComponent<Tilemap>();
+
+        // Find and move to correct spawn point
+        string spawnPointName = SceneSpawnManager.Instance?.nextSpawnPoint ?? "DefaultSpawn";
+        GameObject spawnPoint = GameObject.Find(spawnPointName);
+
+        if (spawnPoint != null)
+        {
+            transform.position = spawnPoint.transform.position;
+        }
+        else
+        {
+            Debug.LogWarning("Spawn point not found: " + spawnPointName);
+        }
+
+        Debug.Log("Tilemaps reassigned for scene: " + scene.name);
     }
+*/
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.enabled = true;
+        }
+
+        // Reassign tilemaps (your existing code)
+        groundTilemap = GameObject.Find("World/Grid/Ground&FloorTileMap")?.GetComponent<Tilemap>();
+        collisionTilemap = GameObject.Find("World/Grid/Wall&CollisionTileMap")?.GetComponent<Tilemap>();
+        collisionFurnitureTilemap = GameObject.Find("World/Grid/Furnitures&Collisions")?.GetComponent<Tilemap>();
+
+        // Move player to the correct spawn point
+        string spawnPointName = SceneSpawnManager.Instance?.nextSpawnPoint ?? "DefaultSpawn";
+        GameObject spawnPoint = GameObject.Find(spawnPointName);
+
+        if (spawnPoint != null)
+        {
+            transform.position = spawnPoint.transform.position;
+        }
+        else
+        {
+            Debug.LogWarning("Spawn point not found: " + spawnPointName);
+        }
+    }
+
 
     // Optional helper method to check tilemap safely
     public bool IsTileBlocked(Vector3Int tilePos)

@@ -378,7 +378,7 @@ public class TilePlayerController : MonoBehaviour
 }
 */
 
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections;
 using UnityEngine.SceneManagement;
@@ -407,9 +407,9 @@ public class TilePlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    /*private void OnEnable() => controls.Enable();
+    *//*private void OnEnable() => controls.Enable();
     private void OnDisable() => controls.Disable();
-*/
+*//*
 
     private void OnEnable()
     {
@@ -441,7 +441,7 @@ public class TilePlayerController : MonoBehaviour
         transform.position = groundTilemap.GetCellCenterWorld(currentGridPosition);
     }
 
-    /*private void Update()
+    *//*private void Update()
     {
         if (isMoving) return;
 
@@ -474,7 +474,7 @@ public class TilePlayerController : MonoBehaviour
         {
             animator.SetBool("isWalking", false);
         }
-    }*/
+    }*//*
 
     private void Update()
     {
@@ -542,9 +542,9 @@ public class TilePlayerController : MonoBehaviour
 
     }
 
-}
+}*/
 
-/*
+
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -632,7 +632,7 @@ public class TilePlayerController : MonoBehaviour
         }
 
         transform.position = targetPosition;
-        yield return new WaitForSeconds(moveDelay);
+        /*yield return new WaitForSeconds(moveDelay);*/
         isMoving = false;
     }
 
@@ -646,4 +646,4 @@ public class TilePlayerController : MonoBehaviour
 
         return groundTile != null && wallTile == null && furnitureTile == null;
     }
-}*/
+}

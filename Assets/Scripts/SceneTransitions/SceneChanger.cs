@@ -23,6 +23,7 @@ public class SceneChanger : MonoBehaviour
     {
         transAnimation.SetTrigger("End");
         yield return new WaitForSeconds(delayBeforeSceneLoad);
+        SceneSpawnManager.Instance.SetSpawnPoint("FromMCCharacterHouse");
         SceneManager.LoadScene(sceneToLoad);
     }
 }
