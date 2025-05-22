@@ -44,14 +44,14 @@ TagManager:
   - name: Floor&Ground
     uniqueID: 4257812603
     locked: 0
-  - name: WalkInFront
-    uniqueID: 3363314415
-    locked: 0
   - name: Door&Carpet
     uniqueID: 938902683
     locked: 0
   - name: WallCollision
     uniqueID: 9720269
+    locked: 0
+  - name: WalkInFront
+    uniqueID: 3363314415
     locked: 0
   - name: FurnituresCollision
     uniqueID: 2225629867
