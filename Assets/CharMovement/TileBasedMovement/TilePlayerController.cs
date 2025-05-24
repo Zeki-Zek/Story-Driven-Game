@@ -564,6 +564,7 @@ public class TilePlayerController : MonoBehaviour
 
     private bool isMoving = false;
     private Vector2 inputDirection;
+    private Coroutine moveCoroutine;
 
     private void Awake()
     {
@@ -597,6 +598,18 @@ public class TilePlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (PauseController.isGamePaused)
+        {
+            if (moveCoroutine != null)
+            {
+                StopCoroutine(moveCoroutine);
+                moveCoroutine = null;
+            }
+            isMoving = false;
+            animator.SetBool("isWalking", false);
+            return;
+        }
+
         if (isMoving) return;
 
         inputDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
