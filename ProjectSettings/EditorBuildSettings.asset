@@ -18,5 +18,5 @@ EditorBuildSettings:
     path: Assets/_GAME_/Scenes/NPCHouses/ElizaHouse/ElizaHouseScene.unity
     guid: 32b05b7684321b84fb0a90445247bcd7
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 5e0c21bfb1278d4429b29feebe897e72, type: 3}
   m_UseUCBPForAssetBundles: 0
