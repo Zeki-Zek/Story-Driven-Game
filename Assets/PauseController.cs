@@ -46,4 +46,11 @@ public class PauseController : MonoBehaviour
         isGamePaused = false;
         Time.timeScale = 1f;
     }
+
+    public void MainMenu()
+    {
+
+    }
+
+    
 }
