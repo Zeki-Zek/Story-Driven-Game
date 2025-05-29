@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public class MainMenu : MonoBehaviour
 {
-
+    public Animator transition;
     public string gameStartScene;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,6 +24,7 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("Start");
         SceneManager.LoadScene(gameStartScene);
+        transition.SetTrigger("End");
     }
 
     public void OpenSettings()
