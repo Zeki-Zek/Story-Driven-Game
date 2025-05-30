@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Rendering;
 
 public class PauseController : MonoBehaviour
 {
@@ -36,8 +37,8 @@ public class PauseController : MonoBehaviour
     }
 
     private void PauseGame()
-    {
-
+    { 
+        
         pauseMenu.SetActive(true);
         isGamePaused = true;
         Time.timeScale = 0f;
@@ -52,9 +53,14 @@ public class PauseController : MonoBehaviour
 
     public void MainMenu()
     {
+        Time.timeScale = 1f;
         Debug.Log("MainMEnuYES");
         SceneManager.LoadScene(mainMenu);
     }
 
+    public void Settings()
+    {
+        Debug.Log("Settings");
+    }
     
 }
