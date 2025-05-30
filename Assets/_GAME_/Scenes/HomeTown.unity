@@ -228,7 +228,7 @@ PrefabInstance:
       objectReference: {fileID: 1821661144}
     - target: {fileID: 7844498705147608372, guid: dd360764c579c8a4ba1a14514c35ddc4, type: 3}
       propertyPath: sceneToLoad
-      value: KaiaHouseScene
+      value: ElizaHouseScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

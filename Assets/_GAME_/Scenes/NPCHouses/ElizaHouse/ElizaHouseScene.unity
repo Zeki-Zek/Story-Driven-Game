@@ -613,6 +613,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086e15cda5ca3554a88270fb56de9312, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 0}
+  mainMenu: 
+  ppVolume: {fileID: 0}
 --- !u!4 &345008101
 Transform:
   m_ObjectHideFlags: 0
@@ -14166,6 +14169,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff17575e1dbfcdf4a853e917a723afbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypointParent: {fileID: 0}
+  moveSpeed: 2
+  waitTime: 2
+  loopWaypoints: 1
 --- !u!1 &1023860138
 GameObject:
   m_ObjectHideFlags: 0
@@ -16448,7 +16455,7 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 6
-    m_Data: {fileID: 11400000, guid: 265441772d122de46b6bb3f61e0ad3fb, type: 2}
+    m_Data: {fileID: 11400000, guid: b64ab5e5cd991b940a45598935fb4074, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -16467,7 +16474,7 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 6
-    m_Data: {fileID: -4064155104995328746, guid: 70650a9bc2dcefc4fbc87994e79ef90e, type: 3}
+    m_Data: {fileID: -8820019551441279908, guid: 217068bc591568349985c4232884a518, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 6
     m_Data:
