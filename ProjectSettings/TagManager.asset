@@ -69,5 +69,8 @@ TagManager:
   - name: WalkBehind
     uniqueID: 582529069
     locked: 0
+  - name: ScreenFX
+    uniqueID: 3917978991
+    locked: 0
   m_RenderingLayers:
   - Default
