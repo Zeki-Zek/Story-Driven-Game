@@ -150,6 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 335547610}
   mainMenu: MainMenu
+  ppVolume: {fileID: 4762292975504180621}
 --- !u!4 &46256411
 Transform:
   m_ObjectHideFlags: 0
@@ -7466,6 +7467,10 @@ PrefabInstance:
     - target: {fileID: 6942858686628519894, guid: 36407ba34f8dc6e4c9b5e868e3c4de5e, type: 3}
       propertyPath: m_Name
       value: FollowPlayerCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942858686628519894, guid: 36407ba34f8dc6e4c9b5e868e3c4de5e, type: 3}
+      propertyPath: m_TagString
+      value: Cinemachine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
