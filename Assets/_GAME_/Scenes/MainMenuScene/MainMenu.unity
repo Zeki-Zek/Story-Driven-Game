@@ -1256,6 +1256,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 785325424}
   m_CullTransparentMesh: 1
+--- !u!95 &1013464698 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4137140021551176409, guid: 24534e4228d3eb14ba169ec2350f3113, type: 3}
+  m_PrefabInstance: {fileID: 306562143}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1342729652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1845,8 +1850,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f16dfd55fd52a1640ae4ed359be41fc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transition: {fileID: 0}
+  transition: {fileID: 1013464698}
   gameStartScene: HomeTown
+  delayBeforeSceneLoad: 1
 --- !u!4 &2124502963
 Transform:
   m_ObjectHideFlags: 0
