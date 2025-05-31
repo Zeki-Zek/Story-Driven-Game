@@ -54,6 +54,9 @@ TagManager:
   - name: WalkInFront
     uniqueID: 3363314415
     locked: 0
+  - name: Tree
+    uniqueID: 1995277215
+    locked: 0
   - name: FurnituresCollision
     uniqueID: 2225629867
     locked: 0
