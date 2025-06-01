@@ -32,6 +32,7 @@ public class PlayerDontDestroy : MonoBehaviour
     [SerializeField] private Tilemap groundTilemap;
     [SerializeField] private Tilemap collisionTilemap;
     [SerializeField] private Tilemap collisionFurnitureTilemap;
+    
 
     private void Awake()
     {
@@ -115,6 +116,7 @@ public class PlayerDontDestroy : MonoBehaviour
         groundTilemap = GameObject.Find("World/Grid/Ground&FloorTileMap")?.GetComponent<Tilemap>();
         collisionTilemap = GameObject.Find("World/Grid/Wall&CollisionTileMap")?.GetComponent<Tilemap>();
         collisionFurnitureTilemap = GameObject.Find("World/Grid/Furnitures&Collisions")?.GetComponent<Tilemap>();
+       
 
         // Move player to the correct spawn point
         string spawnPointName = SceneSpawnManager.Instance?.nextSpawnPoint ?? "DefaultSpawn";
