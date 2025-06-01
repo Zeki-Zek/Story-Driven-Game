@@ -10,9 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
-  m_Name: Waterfall1right
+  m_Name: Left
   m_EditorClassIdentifier: 
-  m_AnimatedSprites: []
+  m_AnimatedSprites:
+  - {fileID: 101654506507835169, guid: 40f3247200d16004b95421ee5054f0dd, type: 3}
+  - {fileID: 1071413141, guid: 40f3247200d16004b95421ee5054f0dd, type: 3}
+  - {fileID: 760792792, guid: 40f3247200d16004b95421ee5054f0dd, type: 3}
   m_MinSpeed: 1
   m_MaxSpeed: 1
   m_AnimationStartTime: 0
