@@ -6,6 +6,7 @@ public class SceneChanger : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public string sceneToLoad;
     public Animator transAnimation;
+    public string whereTospawn;
 
     public float delayBeforeSceneLoad;
 
@@ -23,7 +24,7 @@ public class SceneChanger : MonoBehaviour
     {
         transAnimation.SetTrigger("End");
         yield return new WaitForSeconds(delayBeforeSceneLoad);
-        SceneSpawnManager.Instance.SetSpawnPoint("FromMCCharacterHouse");
+        SceneSpawnManager.Instance.SetSpawnPoint(whereTospawn);
         SceneManager.LoadScene(sceneToLoad);
     }
 }

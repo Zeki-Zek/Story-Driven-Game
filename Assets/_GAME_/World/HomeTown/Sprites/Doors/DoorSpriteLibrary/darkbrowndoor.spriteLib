@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: DoorAnim
+    m_Hash: 694564139
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: darkBrownDoor_0
+      m_Hash: 789895812
+      m_Sprite: {fileID: 4337177007814026868, guid: a7b6a31b2f1a42b489c404f3f7243dad, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4337177007814026868, guid: a7b6a31b2f1a42b489c404f3f7243dad, type: 3}
+    - m_Name: darkBrownDoor_1
+      m_Hash: 403958290
+      m_Sprite: {fileID: -2033772793, guid: a7b6a31b2f1a42b489c404f3f7243dad, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2033772793, guid: a7b6a31b2f1a42b489c404f3f7243dad, type: 3}
+    - m_Name: darkBrownDoor_2
+      m_Hash: 18529192
+      m_Sprite: {fileID: 1214387096, guid: a7b6a31b2f1a42b489c404f3f7243dad, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1214387096, guid: a7b6a31b2f1a42b489c404f3f7243dad, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: Idle
+    m_Hash: 1008081451
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: IdleDoors_6
+      m_Hash: 189696134
+      m_Sprite: {fileID: -1316775414913515992, guid: 21b790b0e8e2a754097ad8c4615777e6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1316775414913515992, guid: 21b790b0e8e2a754097ad8c4615777e6, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638844312535045884
+  m_Version: 1

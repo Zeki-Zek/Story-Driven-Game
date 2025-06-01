@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: DoorAnim
+    m_Hash: 694564139
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GreenDoorAgain_0
+      m_Hash: 750240950
+      m_Sprite: {fileID: 1539658829989272783, guid: f5ce1c25dd797744ab0382a6c3a3033d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1539658829989272783, guid: f5ce1c25dd797744ab0382a6c3a3033d, type: 3}
+    - m_Name: GreenDoorAgain_1
+      m_Hash: 464581664
+      m_Sprite: {fileID: 28115886, guid: f5ce1c25dd797744ab0382a6c3a3033d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 28115886, guid: f5ce1c25dd797744ab0382a6c3a3033d, type: 3}
+    - m_Name: GreenDoorAgain_2
+      m_Hash: 45720986
+      m_Sprite: {fileID: 520720976, guid: f5ce1c25dd797744ab0382a6c3a3033d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 520720976, guid: f5ce1c25dd797744ab0382a6c3a3033d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: Idle
+    m_Hash: 1008081451
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: IdleDoors_7
+      m_Hash: 1011464208
+      m_Sprite: {fileID: -7220844884487821603, guid: 21b790b0e8e2a754097ad8c4615777e6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7220844884487821603, guid: 21b790b0e8e2a754097ad8c4615777e6, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638844312736965260
+  m_Version: 1
