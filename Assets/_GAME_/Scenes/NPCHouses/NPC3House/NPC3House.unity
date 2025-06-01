@@ -292,7 +292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2322576993634665923, guid: e6e588609759d374ab88516486d1987c, type: 3}
       propertyPath: whereTospawn
-      value: fromKaia
+      value: fromNPC3
       objectReference: {fileID: 0}
     - target: {fileID: 2322576993634665923, guid: e6e588609759d374ab88516486d1987c, type: 3}
       propertyPath: transAnimation

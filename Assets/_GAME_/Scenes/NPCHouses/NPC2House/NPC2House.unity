@@ -2750,7 +2750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2322576993634665923, guid: e6e588609759d374ab88516486d1987c, type: 3}
       propertyPath: whereTospawn
-      value: fromKaia
+      value: fromNPC2
       objectReference: {fileID: 0}
     - target: {fileID: 2322576993634665923, guid: e6e588609759d374ab88516486d1987c, type: 3}
       propertyPath: transAnimation
@@ -16689,7 +16689,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -16699,7 +16699,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -16716,14 +16716,14 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 511597312, guid: 70650a9bc2dcefc4fbc87994e79ef90e, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -253511762, guid: 70650a9bc2dcefc4fbc87994e79ef90e, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 2
     m_Data:
