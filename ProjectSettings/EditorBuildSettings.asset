@@ -20,6 +20,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_GAME_/Scenes/MainMenuScene/MainMenu.unity
     guid: 4e71289294c61214396a8a0067ff4b77
+  - enabled: 1
+    path: Assets/_GAME_/Scenes/NPCHouses/MartScene/MartScene.unity
+    guid: a8ccefd1daca7434189b06ce80b7fec3
+  - enabled: 1
+    path: Assets/_GAME_/Scenes/NPCHouses/NPC1House/NPC1Scene.unity
+    guid: 01689a94dc7c0374e89ec64a5cc86290
+  - enabled: 1
+    path: Assets/_GAME_/Scenes/NPCHouses/NPC2House/NPC2House.unity
+    guid: 4982374aba020064283f196d4d06d927
+  - enabled: 1
+    path: Assets/_GAME_/Scenes/NPCHouses/NPC3House/NPC3House.unity
+    guid: c9336e9ed95ed69439cd54188cdd2654
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 5e0c21bfb1278d4429b29feebe897e72, type: 3}
   m_UseUCBPForAssetBundles: 0
