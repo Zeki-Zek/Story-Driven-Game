@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: TopMidWater
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: -3172404997163044933, guid: 15e4b6b2168313445a23dc4d8c594b88, type: 3}
   - {fileID: 68400396, guid: 15e4b6b2168313445a23dc4d8c594b88, type: 3}
+  - {fileID: -3172404997163044933, guid: 15e4b6b2168313445a23dc4d8c594b88, type: 3}
   - {fileID: 1770086725, guid: 15e4b6b2168313445a23dc4d8c594b88, type: 3}
-  m_MinSpeed: 1
-  m_MaxSpeed: 1
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0

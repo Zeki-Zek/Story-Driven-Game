@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: TopLeftWater
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: -3988197578576074555, guid: b53be9f49dafdb74ca9474ccdb6da8d1, type: 3}
   - {fileID: -1688822013, guid: b53be9f49dafdb74ca9474ccdb6da8d1, type: 3}
+  - {fileID: -3988197578576074555, guid: b53be9f49dafdb74ca9474ccdb6da8d1, type: 3}
   - {fileID: 1877837779, guid: b53be9f49dafdb74ca9474ccdb6da8d1, type: 3}
-  m_MinSpeed: 1
-  m_MaxSpeed: 1
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0
