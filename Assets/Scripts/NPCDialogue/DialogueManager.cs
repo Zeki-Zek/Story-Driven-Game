@@ -8,7 +8,7 @@ public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager instance;
 
-    public GameObject dialogueUI;
+    [SerializeField] GameObject canvas;
     public Image characterIcon;
     public TextMeshProUGUI characterName;
     public TextMeshProUGUI dialogueArea;
@@ -23,17 +23,26 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {
+        QuestCanvas();
+        /*canvas.SetActive(false);*/
         if (instance == null)
             instance = this;
 
         lines = new Queue<DialogueLine>();
     }
 
-    
+    IEnumerator QuestCanvas()
+    {
+        canvas.SetActive(true);
+        yield return new WaitForSeconds(0f);
+        /*canvas.SetActive(false);*/
+
+    }
+
     public void StartDialogue(Dialogue dialogue)
     {
         isDialogueActive = true;
-        dialogueUI.SetActive(true);
+        canvas.SetActive(true);
 
         /* animator.Play("show");*/
 
@@ -79,7 +88,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         isDialogueActive = false;
-        dialogueUI.SetActive(false);
+        canvas.SetActive(false);
         /*animator.Play("hide");*/
     }
 }

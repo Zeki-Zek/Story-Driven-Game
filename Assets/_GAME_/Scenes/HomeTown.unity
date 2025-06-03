@@ -583,6 +583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e96710ab5ce416459691da6ed3c4f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
   characterIcon: {fileID: 475837374}
   characterName: {fileID: 850595393}
   dialogueArea: {fileID: 1705320643}
@@ -1214,6 +1215,38 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &349740327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 349740328}
+  m_Layer: 0
+  m_Name: KaiaTrigger
+  m_TagString: KaiaTrigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &349740328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349740327}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1904911225}
+  m_Father: {fileID: 365725932}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &354004900 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4476343494350256700, guid: dd360764c579c8a4ba1a14514c35ddc4, type: 3}
@@ -1298,6 +1331,185 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1095072736}
   m_SourcePrefab: {fileID: 100100000, guid: dd360764c579c8a4ba1a14514c35ddc4, type: 3}
+--- !u!1 &365725927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 365725932}
+  - component: {fileID: 365725931}
+  - component: {fileID: 365725930}
+  - component: {fileID: 365725929}
+  - component: {fileID: 365725928}
+  m_Layer: 0
+  m_Name: Kaia (1)
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &365725928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365725927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9b4d2804c86b24b93d5d0e76ffe92f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    dialogueLines:
+    - character:
+        name: Elian
+        icon: {fileID: -7254910017412986436, guid: 07cc015d12e3f7e44ba677cb007ff546, type: 3}
+      line: Ms.Eliza?
+    - character:
+        name: Eliza
+        icon: {fileID: 5661314660147894343, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
+      line: That's not me
+    - character:
+        name: Kaia
+        icon: {fileID: 5661314660147894343, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
+      line: Oh, I'm so sorry, wrong person
+    - character:
+        name: Elian
+        icon: {fileID: -7254910017412986436, guid: 07cc015d12e3f7e44ba677cb007ff546, type: 3}
+      line: Oh I'm just kidding
+    - character:
+        name: Kaia
+        icon: {fileID: 5661314660147894343, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
+      line: Anyways, it's been a while
+    - character:
+        name: Kaia
+        icon: {fileID: 5661314660147894343, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
+      line: It has been indeed... I'm sorry...
+    - character:
+        name: Kaia
+        icon: {fileID: 5661314660147894343, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
+      line: Oh come on, it's fine, I know what you're goin through that day
+    - character:
+        name: Kaia
+        icon: {fileID: 5661314660147894343, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
+      line: 'Anyways. it seems you''re still tired from your travels. '
+    - character:
+        name: Kaia
+        icon: {fileID: 5661314660147894343, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
+      line: Head down the road and you'll find the apartment I rented for you!
+    - character:
+        name: Kaia
+        icon: {fileID: 5661314660147894343, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
+      line: Thank you very much, I'll catch up later!
+--- !u!114 &365725929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365725927}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7ea438e805be94ba76b03d031b19f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transition: {fileID: 1821661144}
+  gameStartScene: Cutscene
+  delayBeforeSceneLoad: 1
+--- !u!114 &365725930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365725927}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edfdcc0ce714db6429d8cb39ce5ba093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueData: {fileID: 11400000, guid: bed605df95f9fc34d982394035f12bad, type: 2}
+  dialoguePanel: {fileID: 1279962148}
+  dialogueText: {fileID: 1743240533}
+  nameText: {fileID: 1755587051}
+  portraitImage: {fileID: 562557148}
+--- !u!212 &365725931
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365725927}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -148248621
+  m_SortingLayer: 8
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -7397507068737644762, guid: acd99ba47e04b054e80c30e7cdf94f6b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 2
+  m_Size: {x: 1, y: 1.2628374}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &365725932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365725927}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 55.484, y: 16.566, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2121580394}
+  - {fileID: 1705157868}
+  - {fileID: 349740328}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &381697532
 GameObject:
   m_ObjectHideFlags: 0
@@ -43481,7 +43693,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -7862751560490577435, guid: 28edcd99297f7d840a27fe20a6247be6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -47680,19 +47892,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'X
-
-'
+  m_text: Continue
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 700f96f7b1150d8439826bb4e86cd3d2, type: 2}
+  m_sharedMaterial: {fileID: 4267573393131730313, guid: 700f96f7b1150d8439826bb4e86cd3d2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279243007
-  m_fontColor: {r: 1, g: 0.06132078, b: 0.06132078, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -47715,9 +47925,9 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 33
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 8192
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -198368,8 +198578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 365.9, y: -275}
-  m_SizeDelta: {x: 40, y: 40}
+  m_AnchoredPosition: {x: 330, y: -410.2}
+  m_SizeDelta: {x: 122.9904, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1560047298
 MonoBehaviour:
@@ -304467,6 +304677,65 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1705157867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1705157868}
+  - component: {fileID: 1705157869}
+  m_Layer: 0
+  m_Name: RigidBody2d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1705157868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705157867}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 365725932}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1705157869
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705157867}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1705320641
 GameObject:
   m_ObjectHideFlags: 0
@@ -304731,10 +305000,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -304798,11 +305067,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e96710ab5ce416459691da6ed3c4f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 1729703033}
   characterIcon: {fileID: 562557148}
   characterName: {fileID: 1755587051}
   dialogueArea: {fileID: 1743240533}
   isDialogueActive: 0
-  typingSpeed: 0.2
+  typingSpeed: 0
 --- !u!1 &1730330318
 GameObject:
   m_ObjectHideFlags: 0
@@ -304986,12 +305256,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
+  m_text: 'Find the house of Ms.Eliza
+
+    Hint: You can ask someone close
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 700f96f7b1150d8439826bb4e86cd3d2, type: 2}
+  m_sharedMaterial: {fileID: 4267573393131730313, guid: 700f96f7b1150d8439826bb4e86cd3d2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -305021,7 +305293,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 33
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -309756,7 +310028,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -125, y: 40}
+  m_AnchoredPosition: {x: -125, y: 51.2}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1755587051
@@ -309779,12 +310051,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-'
+  m_text: Quest
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 700f96f7b1150d8439826bb4e86cd3d2, type: 2}
+  m_sharedMaterial: {fileID: 4267573393131730313, guid: 700f96f7b1150d8439826bb4e86cd3d2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -309808,13 +310078,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 42.33
+  m_fontSizeBase: 42.33
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 37
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -310210,6 +310480,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846482117}
   m_CullTransparentMesh: 1
+--- !u!1 &1847503484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1847503485}
+  - component: {fileID: 1847503486}
+  m_Layer: 0
+  m_Name: Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1847503485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847503484}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1904911225}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1847503486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847503484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9b4d2804c86b24b93d5d0e76ffe92f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    dialogueLines:
+    - character:
+        name: Elian
+        icon: {fileID: -5117027057947568564, guid: b225ad4cbe9a5b1488f4f42dc2887f20, type: 3}
+      line: Perhaps, do you know someone named Eliza? Ms.Eliza?
+    - character:
+        name: Kaia
+        icon: {fileID: 5661314660147894343, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
+      line: Ms.Eliza? Oh yes, I know about her. She's my neighbor to be exact.
+    - character:
+        name: Kaia
+        icon: {fileID: 5661314660147894343, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
+      line: Just go to your right and you'll find a huge violet house. That's hers
+    - character:
+        name: Elian
+        icon: {fileID: -5117027057947568564, guid: b225ad4cbe9a5b1488f4f42dc2887f20, type: 3}
+      line: I see, thank you very much!
+    - character:
+        name: Kaia
+        icon: {fileID: 5661314660147894343, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
+      line: '*Kaia is looking at you with interest*'
 --- !u!1 &1854136784
 GameObject:
   m_ObjectHideFlags: 0
@@ -310376,6 +310712,153 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895598677}
   m_CullTransparentMesh: 1
+--- !u!1 &1904911224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1904911225}
+  - component: {fileID: 1904911228}
+  - component: {fileID: 1904911227}
+  - component: {fileID: 1904911226}
+  m_Layer: 0
+  m_Name: BoxColliderTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1904911225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904911224}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1847503485}
+  m_Father: {fileID: 349740328}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1904911226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904911224}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9b4d2804c86b24b93d5d0e76ffe92f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    dialogueLines:
+    - character:
+        name: Elian
+        icon: {fileID: -7254910017412986436, guid: 07cc015d12e3f7e44ba677cb007ff546, type: 3}
+      line: Ms.Eliza?
+    - character:
+        name: Eliza
+        icon: {fileID: -7397507068737644762, guid: acd99ba47e04b054e80c30e7cdf94f6b, type: 3}
+      line: That's not me
+    - character:
+        name: Elian
+        icon: {fileID: -5117027057947568564, guid: b225ad4cbe9a5b1488f4f42dc2887f20, type: 3}
+      line: Oh, I'm so sorry, wrong person
+    - character:
+        name: Eliza
+        icon: {fileID: -7397507068737644762, guid: acd99ba47e04b054e80c30e7cdf94f6b, type: 3}
+      line: Oh I'm just kidding!
+    - character:
+        name: Eliza
+        icon: {fileID: -7397507068737644762, guid: acd99ba47e04b054e80c30e7cdf94f6b, type: 3}
+      line: Anyways, it's been a while
+    - character:
+        name: Elian
+        icon: {fileID: -5117027057947568564, guid: b225ad4cbe9a5b1488f4f42dc2887f20, type: 3}
+      line: It has been indeed... I'm sorry...
+    - character:
+        name: Eliza
+        icon: {fileID: -7397507068737644762, guid: acd99ba47e04b054e80c30e7cdf94f6b, type: 3}
+      line: Oh come on, it's fine, I know what you're goin through that day
+    - character:
+        name: Eliza
+        icon: {fileID: -7397507068737644762, guid: acd99ba47e04b054e80c30e7cdf94f6b, type: 3}
+      line: 'Anyways. it seems you''re still tired from your travels. '
+    - character:
+        name: Eliza
+        icon: {fileID: -7397507068737644762, guid: acd99ba47e04b054e80c30e7cdf94f6b, type: 3}
+      line: Head down the road and you'll find the apartment I rented for you!
+    - character:
+        name: Elian
+        icon: {fileID: -5117027057947568564, guid: b225ad4cbe9a5b1488f4f42dc2887f20, type: 3}
+      line: Thank you very much, I'll catch up later!
+--- !u!114 &1904911227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904911224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05650f4c007028647aa88bbc7940a615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1904911228
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904911224}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.026424408, y: -0.4347515}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.39754105, y: 1.3128624}
+  m_EdgeRadius: 0
 --- !u!1 &1906472065
 GameObject:
   m_ObjectHideFlags: 0
@@ -311079,6 +311562,84 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 565554216}
   m_SourcePrefab: {fileID: 100100000, guid: dd360764c579c8a4ba1a14514c35ddc4, type: 3}
+--- !u!1 &2121580393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2121580394}
+  - component: {fileID: 2121580395}
+  m_Layer: 0
+  m_Name: BoxCollider2d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2121580394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121580393}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 365725932}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2121580395
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121580393}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.015472412, y: -0.017887115}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.50366974, y: 0.41410446}
+  m_EdgeRadius: 0
 --- !u!1 &2123369978
 GameObject:
   m_ObjectHideFlags: 0
@@ -311747,6 +312308,7 @@ SceneRoots:
   - {fileID: 1546552585}
   - {fileID: 1854136786}
   - {fileID: 1646148404}
+  - {fileID: 365725932}
   - {fileID: 2123369979}
   - {fileID: 46256411}
   - {fileID: 1246651399}
