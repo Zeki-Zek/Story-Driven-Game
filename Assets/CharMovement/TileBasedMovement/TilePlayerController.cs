@@ -656,7 +656,17 @@ public class TilePlayerController : MonoBehaviour
         TileBase groundTile = groundTilemap.GetTile(gridPosition);
         TileBase wallTile = collisionTilemap.GetTile(gridPosition);
         TileBase furnitureTile = collisionFurnitureTilemap.GetTile(gridPosition);
+        Debug.DrawRay(targetPosition, Vector3.up * 0.1f, Color.yellow, 1f);
+
+        Collider2D hit = Physics2D.OverlapCircle(targetPosition, 0.1f);
+        if (hit != null && !hit.isTrigger)
+        {
+            Debug.Log("Hit something: " + hit.gameObject.name);
+            return false;
+        }
 
         return groundTile != null && wallTile == null && furnitureTile == null;
+
+
     }
 }

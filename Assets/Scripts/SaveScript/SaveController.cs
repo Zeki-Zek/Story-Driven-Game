@@ -13,8 +13,9 @@ public class SaveController : MonoBehaviour
 
         if (GameState.isLoadingFromSave)
         {
-            LoadGame(applySavedPosition: false); // Don't override spawn
+            LoadGame(applySavedPosition: true); // Don't override spawn
             GameState.isLoadingFromSave = false;
+
         }
         
         }

@@ -35,17 +35,11 @@ public class SceneChanger : MonoBehaviour
         transAnimation.SetTrigger("End");
         yield return new WaitForSeconds(delayBeforeSceneLoad);
 
-        if (loadFromSave)
-        {
-            //  Mark that we should load saved data (but skip setting position)
-            GameState.isLoadingFromSave = true;
-        }
-        else
-        {
+       
             //  Use spawn point system
             SceneSpawnManager.Instance.SetSpawnPoint(whereTospawn);
             GameState.isLoadingFromSave = false;
-        }
+        
 
         //  Finally, load the new scene
         SceneManager.LoadScene(sceneToLoad);

@@ -75,7 +75,9 @@ public class PlayerDontDestroy : MonoBehaviour
     [SerializeField] private Tilemap groundTilemap;
     [SerializeField] private Tilemap collisionTilemap;
     [SerializeField] private Tilemap collisionFurnitureTilemap;
-    
+
+    private Rigidbody2D rb;
+    private Collider2D col;
 
     private void Awake()
     {
@@ -90,6 +92,8 @@ public class PlayerDontDestroy : MonoBehaviour
             Destroy(gameObject);
             
         }
+        rb = GetComponent<Rigidbody2D>();
+        col = GetComponent<Collider2D>();
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -147,4 +151,15 @@ public class PlayerDontDestroy : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;
 
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("Collided with: " + collision.gameObject.name);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Triggered by: " + other.gameObject.name);
+    }
+
 }
