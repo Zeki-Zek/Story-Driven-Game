@@ -63,8 +63,14 @@ TagManager:
   - name: DecorUnderPlayer
     uniqueID: 3097158591
     locked: 0
+  - name: NPCBelow
+    uniqueID: 4146718675
+    locked: 0
   - name: Player
     uniqueID: 1508047775
+    locked: 0
+  - name: NPCAbove
+    uniqueID: 1270598877
     locked: 0
   - name: DecorAbovePlayer
     uniqueID: 3690714679

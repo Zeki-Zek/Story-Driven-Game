@@ -37328,7 +37328,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -376988305
-  m_SortingLayer: 11
+  m_SortingLayer: 13
   m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0
@@ -197347,6 +197347,7 @@ GameObject:
   - component: {fileID: 1646148401}
   - component: {fileID: 1646148406}
   - component: {fileID: 1646148405}
+  - component: {fileID: 1646148407}
   m_Layer: 0
   m_Name: Kaia
   m_TagString: Untagged
@@ -197458,8 +197459,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1508047775
-  m_SortingLayer: 8
+  m_SortingLayerID: 1270598877
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: 2522382949699926316, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -197548,6 +197549,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1.73207}
   m_EdgeRadius: 0
+--- !u!50 &1646148407
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646148400}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1657640087 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3188328873936623713, guid: dd360764c579c8a4ba1a14514c35ddc4, type: 3}
@@ -303543,7 +303571,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 582529069
-  m_SortingLayer: 10
+  m_SortingLayer: 12
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -309503,7 +309531,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 582529069
-  m_SortingLayer: 10
+  m_SortingLayer: 12
   m_SortingOrder: 0
   m_Sprite: {fileID: -1101421065, guid: adf3bdcf63c90ad4e805d50a5b89d30b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
