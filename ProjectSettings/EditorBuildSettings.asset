@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_GAME_/Scenes/MainMenuScene/MainMenu.unity
+    guid: 4e71289294c61214396a8a0067ff4b77
+  - enabled: 1
     path: Assets/_GAME_/Scenes/HomeTown.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -18,9 +21,6 @@ EditorBuildSettings:
     path: Assets/_GAME_/Scenes/NPCHouses/ElizaHouse/ElizaHouseScene.unity
     guid: 32b05b7684321b84fb0a90445247bcd7
   - enabled: 1
-    path: Assets/_GAME_/Scenes/MainMenuScene/MainMenu.unity
-    guid: 4e71289294c61214396a8a0067ff4b77
-  - enabled: 1
     path: Assets/_GAME_/Scenes/NPCHouses/MartScene/MartScene.unity
     guid: a8ccefd1daca7434189b06ce80b7fec3
   - enabled: 1
@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_GAME_/Scenes/NPCHouses/NPC3House/NPC3House.unity
     guid: c9336e9ed95ed69439cd54188cdd2654
+  - enabled: 1
+    path: Assets/_GAME_/Scenes/Cutscenes/Cutscene.unity
+    guid: 9c0e395137f8ea843839adfef1419caa
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 5e0c21bfb1278d4429b29feebe897e72, type: 3}
   m_UseUCBPForAssetBundles: 0

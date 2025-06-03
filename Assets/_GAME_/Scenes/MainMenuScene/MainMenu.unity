@@ -153,8 +153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.6000061, y: 0}
-  m_SizeDelta: {x: -242.74, y: -79.557}
+  m_AnchoredPosition: {x: -0.0037994385, y: 0}
+  m_SizeDelta: {x: -221.32, y: -79.557}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &14848888
 MonoBehaviour:
@@ -176,9 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Settings
-
-'
+  m_text: About
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 700f96f7b1150d8439826bb4e86cd3d2, type: 2}
   m_sharedMaterial: {fileID: 4267573393131730313, guid: 700f96f7b1150d8439826bb4e86cd3d2, type: 2}
@@ -212,7 +210,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 32
-  m_HorizontalAlignment: 32
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -415,7 +413,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &328477460
 RectTransform:
   m_ObjectHideFlags: 0
@@ -433,8 +431,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -710.05884, y: -137}
-  m_SizeDelta: {x: 303.4224, y: 98.832}
+  m_AnchoredPosition: {x: -742.8, y: -143}
+  m_SizeDelta: {x: 261.41, y: 98.832}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &328477461
 MonoBehaviour:
@@ -1372,7 +1370,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -767.7533, y: -290.57016}
+  m_AnchoredPosition: {x: -767.7533, y: -145}
   m_SizeDelta: {x: 185.8141, y: 96.3025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1409910227
@@ -1421,7 +1419,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2124502962}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

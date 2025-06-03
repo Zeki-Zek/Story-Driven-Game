@@ -1,0 +1,2709 @@
+fileFormatVersion: 2
+guid: f05ab2ee373ec66468b4ba7ebd69a911
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6535467755108986130
+    second: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8526
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d6a400c45a2ba50800000000000000
+      internalID: 6535467755108986130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 8526
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93b82b732be32b4e9ee077cab3e7cc2
+      internalID: -1768765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 8526
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc6cbf659d4a8d4fbd49184b9bdbc3f
+      internalID: 1449266683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_3
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 8526
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b208a7acc8a5e74ea2f392e75a3fef1
+      internalID: 500305448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_4
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 8526
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977b7b35b3298ca4e85608d35aeb1824
+      internalID: 588054605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 8526
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218086e1c8e35b34fb3ee82e5f167ab6
+      internalID: 700990760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_6
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 8526
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccf4b3596e4faa41adbc117ec20d46e
+      internalID: 184210789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7991
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72aa7dff0130d8d4f908963ee5627fe9
+      internalID: -739715602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 7991
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d25569313ef7a469a54e227a81cffa
+      internalID: -1735964755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_9
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 7991
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c051c8c92f2391419cb56a3775b24b7
+      internalID: 541499446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 7991
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee531644a671780448ca4fd70b7416dc
+      internalID: -898193256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_11
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 7991
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769b971523554d44c8999ebe5089ec7c
+      internalID: -415935968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_12
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7991
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4350a5ef60185844d804b8e9843f80fb
+      internalID: -1843209853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_13
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 7991
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6202955f998034e990b14c3da01377
+      internalID: -1637894274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7456
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b13925490f3704f99f96615dcd9f3c
+      internalID: -2099388832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_15
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 7456
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c022626ed00f90c4a86943f7bb4edb8a
+      internalID: -567780272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 7456
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c949dbbc1d6fb04e9300f7a9e678396
+      internalID: 1284894733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_17
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 7456
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37541e007b6c23749a0d09ac612564c5
+      internalID: 810742179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_18
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 7456
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4eae63048cd6145a343d77b6f24691
+      internalID: -1595586970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_19
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7456
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fc47b57579c8248ae2ebc1b1150025
+      internalID: 1064321614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_20
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 7456
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1000ad2ffe56f7498a0fc9411fa312c
+      internalID: -535034528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6921
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228603a806f3a084dbc81033b9bd2859
+      internalID: -3400712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 6921
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5012d0c68f1f0842ad3a686d895c522
+      internalID: -803044339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_23
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 6921
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c939f8f0513a0847ae0a835a1084f2f
+      internalID: 527657745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_24
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6921
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9fb24d123f710419db92f9b38f292f
+      internalID: 1694039830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_25
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 6921
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2813eb9684e024aafe880cb8faa2ee
+      internalID: -582886120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_26
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6921
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c951fef13495746b2e870f185bf90d
+      internalID: -326877464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_27
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 6921
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f52f2df903e6ef43b80d33d09061592
+      internalID: -1627374776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6386
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc751041858b5b4eb6fcb501d171005
+      internalID: -1939747465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_29
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 6386
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd73f29dd4f5574cbae2da9593d9156
+      internalID: -157358288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_30
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 6386
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3619a64f1df0441af8a024c76a7ac6
+      internalID: -679881558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_31
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6386
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa929cf8d1095644aa88372545c215a
+      internalID: -534901501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_32
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 6386
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b338ea9d218104d8e751981da28496
+      internalID: -870383667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_33
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6386
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c942645afc26ac47b9e137d66e04403
+      internalID: -1983828911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_34
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 6386
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13394b8e4b12f4b49a5e8cc257039b94
+      internalID: 1958795929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5851
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694d51bb66253b546bc9d227857f10f9
+      internalID: 1559039502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_36
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 5851
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da42d27c2ffcb44fb087ba2bdac890e
+      internalID: -1768283930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_37
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5851
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8b36b87f324dc4588b66273a9434f5
+      internalID: -1711126185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_38
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5851
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4987dc550ee2b443852bbcbb6f869b7
+      internalID: 1355348783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_39
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 5851
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1d5cfe4ba88ad4d9c0da4b51cd0d96
+      internalID: -518287175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_40
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5851
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5c780e586a2ee44b147179d1250fe0
+      internalID: -1355286260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_41
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 5851
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a485bc54c142a4eb9df4be3e2edb64
+      internalID: -1589667658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5316
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fe4628137213a4cb4f0fec960b548c
+      internalID: 829048612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_43
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 5316
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baa150b006f43540a3fe9060507f8d3
+      internalID: 26018397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_44
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5316
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb7bc07ccd17f648889e158d7436d10
+      internalID: -663519165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_45
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5316
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678b9f1dafeeae349b454495493901a4
+      internalID: 1910699837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_46
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 5316
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87bb58929636884fa77c00751f99196
+      internalID: -996942294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_47
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5316
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a37a70526e29247a368cd4815382be
+      internalID: -754373546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_48
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 5316
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc0bcbadc111fe44b42d042c4e3c7e4
+      internalID: -1183508630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4781
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e88c668867c2574e97a9f0add949b4d
+      internalID: -159578940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_50
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4781
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5277489ceab7bb34292a064148630e7b
+      internalID: -1991210919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_51
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4781
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cdc46765b8f9d4bbfb08ae44ee2598
+      internalID: 1587825302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_52
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4781
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09979a1e988823942971afa8378753cf
+      internalID: 684727000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_53
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4781
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fed4f4f3c33a3945a7e150be609bf05
+      internalID: 195448003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_54
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4781
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4988cb2b40b7eff40a4e78b895618314
+      internalID: 921077753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_55
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4781
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca1fcb92b75284428a9b9e78a319c32
+      internalID: -686981632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4246
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39396d429e3a3b343b0415e0ec3d6b5d
+      internalID: 189766399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_57
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4246
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c68d58645acd5429af0eb53e4bb661
+      internalID: 73414782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_58
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4246
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc65d57aa9ebaf4b8d0e337ef604b2a
+      internalID: 1102433875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_59
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4246
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f9da0a9586f8c479f23e2ba70521a4
+      internalID: -1726889968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_60
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4246
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2808aa2ec3aa748a53f5f88cf792a6
+      internalID: -1656521748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_61
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4246
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e15a46ad838a04c96d61934e212b69
+      internalID: 1684901270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_62
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4246
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e036b73a8ecd25341b5f8c0f25c668c0
+      internalID: 713547993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3711
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa71a3bbec2bfbc46a39353b0b7a31ca
+      internalID: -322154078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_64
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3711
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6722bc2d6f3619a47bed48a4e99c0612
+      internalID: 693328717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_65
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3711
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1829990999b5d49b9722259776a537
+      internalID: 789880000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_66
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3711
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958d5377abf685443b2663b2473308d9
+      internalID: 361615092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_67
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3711
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca453a400c858be43ac86f4173b0c141
+      internalID: 1095669652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_68
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3711
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17de80cfa1232143abd71893d084cbc
+      internalID: -1792327542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_69
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3711
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0109f5efd6bd145aad06831c25340e
+      internalID: 1484258577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3176
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1418c76a15254e41b9cdb3a103f3778
+      internalID: 1540919864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_71
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3176
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c5b40cca59840419f7f737f22a6f37
+      internalID: 296576331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_72
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3176
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093b0f7f16a6b3648927632c07a596b8
+      internalID: -1277868079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_73
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3176
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9ac49029950084c9e075bbded91bf9
+      internalID: 220602951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_74
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3176
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd73fda569d9de449a2ac8510f93c69
+      internalID: 878360677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_75
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3176
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ed3d849369385439ab267171469632
+      internalID: 1302831683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_76
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3176
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e62476f43c76445ab3785dab309f80
+      internalID: 952592753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2641
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9f1ed35010b0f40a7a7480c7416f7e
+      internalID: 1645019914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_78
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2641
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22c24288d4bd4345a3a7eb816431e7a
+      internalID: -183571050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_79
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2641
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f406bc8045c29ec429ae043751f04a97
+      internalID: 613163056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_80
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2641
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7485190f90b7d46b930fb47a31db66
+      internalID: -1428505197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_81
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2641
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db46f3cc91af3345b9869b947748d1c
+      internalID: 1071400146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_82
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2641
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d4e9ee2af52ce43be0237b76ea7735
+      internalID: -1769745173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_83
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2641
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bd970bb3907014a83f67bcdb7d7bc6
+      internalID: 119424036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2106
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087d1dfc884ef3e4caf7f43ab58f1616
+      internalID: -1797058129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_85
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2106
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07066d6aad34be64fb24916719c61f1b
+      internalID: 1653056040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_86
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2106
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64eb7cddd6af0b84b959efa01a7d0189
+      internalID: -115352243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_87
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2106
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5237f6c80ebb5c9458a9043f4e89c10c
+      internalID: 322683660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_88
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2106
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e043c0c2b8e54724dbcfd79d32bdd9ec
+      internalID: 1690174455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_89
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2106
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011c8d33188780944906f06b2412d1d2
+      internalID: -1337718089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_90
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2106
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a6d9e1959675f43a76ea29e5457af0
+      internalID: 1713243841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1571
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1c1afcf9689d1418b6f3def3a0d737
+      internalID: -280779257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_92
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1571
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ee219e550c5f9469b08d831ab60598
+      internalID: -721174668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_93
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1571
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5506a8a99c8cfc47a18f721dec0c801
+      internalID: -345571703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_94
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1571
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a707d52222ae6914f9af87fbe65fe802
+      internalID: -1755571475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_95
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1571
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa533ac53de1a96469ffc7de0c03935c
+      internalID: -1058077714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_96
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1571
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62daf20dc2a46244904126beda7e65c
+      internalID: 1286233169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_97
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1571
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e706c31dee45ed46ba657eca1149569
+      internalID: -398808823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1036
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7cdf7b6d456ee45b7aa88c441c517a
+      internalID: -955464947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_99
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1036
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52f5bdb0a954824896245c3ad847337
+      internalID: 1246603363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_100
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1036
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c931e988b0fcd4a9b053ac6b5ebdf3
+      internalID: -830404436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_101
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1036
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9067e60e57e0ed2498bba280a4478f39
+      internalID: -1990824513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_102
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1036
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34745b986defc04fa168f0004b6166f
+      internalID: -1087133324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_103
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1036
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5568fa30d77aff44b0d9508cac0dccc
+      internalID: -217460210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_104
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1036
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ad9f281b4a1204693cd9acd72c46f5
+      internalID: -1944215278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 501
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d80afae91b11964a9d7a76245596346
+      internalID: 557657668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_106
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 501
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd182edc8398aa43a67e3b7ff6761c9
+      internalID: -126087507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_107
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 501
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec001fcc8e704e5418973a10daeb8db8
+      internalID: -1576973322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_108
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 501
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173dfab5a8ea4454690d2aba47400627
+      internalID: 1032979277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_109
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 501
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b3a0ad237ed9c42aa4dc415f7ff694
+      internalID: 89879011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_110
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 501
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e43d4be6fdf1941851d9e0b707121c
+      internalID: 1857040131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_111
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 501
+        width: 800
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccc74bd2cecde7469849702c3953378
+      internalID: 2086314073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d56109497c1322445be662e62a36aa64
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_0: 6535467755108986130
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_1: -1768765
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_10: -898193256
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_100: -830404436
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_101: -1990824513
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_102: -1087133324
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_103: -217460210
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_104: -1944215278
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_105: 557657668
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_106: -126087507
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_107: -1576973322
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_108: 1032979277
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_109: 89879011
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_11: -415935968
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_110: 1857040131
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_111: 2086314073
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_12: -1843209853
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_13: -1637894274
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_14: -2099388832
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_15: -567780272
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_16: 1284894733
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_17: 810742179
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_18: -1595586970
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_19: 1064321614
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_2: 1449266683
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_20: -535034528
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_21: -3400712
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_22: -803044339
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_23: 527657745
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_24: 1694039830
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_25: -582886120
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_26: -326877464
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_27: -1627374776
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_28: -1939747465
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_29: -157358288
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_3: 500305448
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_30: -679881558
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_31: -534901501
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_32: -870383667
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_33: -1983828911
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_34: 1958795929
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_35: 1559039502
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_36: -1768283930
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_37: -1711126185
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_38: 1355348783
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_39: -518287175
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_4: 588054605
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_40: -1355286260
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_41: -1589667658
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_42: 829048612
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_43: 26018397
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_44: -663519165
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_45: 1910699837
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_46: -996942294
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_47: -754373546
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_48: -1183508630
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_49: -159578940
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_5: 700990760
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_50: -1991210919
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_51: 1587825302
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_52: 684727000
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_53: 195448003
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_54: 921077753
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_55: -686981632
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_56: 189766399
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_57: 73414782
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_58: 1102433875
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_59: -1726889968
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_6: 184210789
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_60: -1656521748
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_61: 1684901270
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_62: 713547993
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_63: -322154078
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_64: 693328717
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_65: 789880000
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_66: 361615092
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_67: 1095669652
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_68: -1792327542
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_69: 1484258577
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_7: -739715602
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_70: 1540919864
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_71: 296576331
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_72: -1277868079
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_73: 220602951
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_74: 878360677
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_75: 1302831683
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_76: 952592753
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_77: 1645019914
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_78: -183571050
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_79: 613163056
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_8: -1735964755
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_80: -1428505197
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_81: 1071400146
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_82: -1769745173
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_83: 119424036
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_84: -1797058129
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_85: 1653056040
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_86: -115352243
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_87: 322683660
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_88: 1690174455
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_89: -1337718089
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_9: 541499446
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_90: 1713243841
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_91: -280779257
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_92: -721174668
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_93: -345571703
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_94: -1755571475
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_95: -1058077714
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_96: 1286233169
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_97: -398808823
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_98: -955464947
+      Kaia_Uhyourekindablockingmyshot-ezgif.com-gif-to-sprite-converter (2)_99: 1246603363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

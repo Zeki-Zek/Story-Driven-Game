@@ -9,25 +9,11 @@ public class MainMenu : MonoBehaviour
 {
     public Animator transition;
     public string gameStartScene;
-    public float delayBeforeSceneLoad = 1f; // Match to your open animation length
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    public float delayBeforeSceneLoad = 1f; // Match to your open 
     public void StartGame()
     {
         Debug.Log("Start");
         StartCoroutine(StartFade());
-        
     }
 
     private IEnumerator StartFade()

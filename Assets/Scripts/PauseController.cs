@@ -13,7 +13,7 @@ public class PauseController : MonoBehaviour
     [SerializeField]
     GameObject pauseMenu;
 
-    public static bool isGamePaused;
+    public static bool isGamePaused { get; private set; } = false;
     public string mainMenu;
     public PostProcessVolume ppVolume; 
     void Start()
@@ -23,6 +23,11 @@ public class PauseController : MonoBehaviour
         isGamePaused = false;
         if (ppVolume != null)
             ppVolume.enabled = false;
+    }
+
+    public static void SetPause(bool pause)
+    {
+        isGamePaused = pause;
     }
 
     void Update()

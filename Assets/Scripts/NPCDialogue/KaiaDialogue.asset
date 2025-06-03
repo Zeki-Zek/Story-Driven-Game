@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3e5f7f2cfa8954bb548ca396fa0f11, type: 3}
+  m_Name: KaiaDialogue
+  m_EditorClassIdentifier: 
+  npcName: Kaia
+  NPCSprite: {fileID: -4708624771317821694, guid: 6bfc542adbc91bf499668d17528d0624, type: 3}
+  dialogueLines:
+  - 
+  autoProgressLine: 
+  autoProgressDelay: 0
+  typeSpeed: 1
+  voiceSound: {fileID: 0}
+  voicePitch: 1
