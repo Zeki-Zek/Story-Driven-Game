@@ -581,7 +581,7 @@ public class TilePlayerController : MonoBehaviour
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
-
+        
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         groundTilemap = GameObject.Find("World/Grid/Ground&FloorTileMap")?.GetComponent<Tilemap>();
@@ -592,8 +592,8 @@ public class TilePlayerController : MonoBehaviour
             animator = GetComponent<Animator>();
 
         // Optional: Reset animator state after scene load
-        animator.Rebind();
-        animator.Update(0f);
+        /*animator.Rebind();
+        animator.Update(0f);*/
     }
 
     private void Update()
